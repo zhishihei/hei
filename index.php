@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
 <meta charset="UTF-8">
+<link rel="shortcut icon" href="img/hei.png" type="image/png">
 <title>只是黑 - 没情怀不客观非理性商业评论</title>
 <style>
 
