@@ -1,6 +1,6 @@
 # 只是黑
 
-ZhiShiHei Business Review
+Black Business Review
 
 没情怀不客观非理性商业评论
 
