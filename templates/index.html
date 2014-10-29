@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+
+{% block head %} 
+
+<style>
+
+.topic h2 {
+	margin-bottom: 0px;
+}
+
+.topic .meta {
+    color: #aaa;
+    font-weight: 600;
+    padding: 5px 0;
+    text-shadow: 0 -1px 0 #000;
+	display: inline-block;
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+</style>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="topic markdown content"> 
+
+{% for topic in topics %} 
+<h2> <a href="{{ urlFor('topic', {name: topic.name}) }}">{{topic.title}}</a> </h2>
+<div class="meta">
+	<a href="{{topic.weibo}}" target="_blank">{{topic.author}}</a>
+	<span><em>{{topic.date|ago}}</em></span>发布
+</div>
+<p>{{topic.overview}}</p>
+{% endfor %}
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,53 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	background: url('img/bg.png') repeat scroll 0% 0% #333;
+	color: #FFF;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+a {
+	color: #7bd;
+	outline: medium none;
+	text-decoration: none;
+}
+
+a.hei {
+
+}
+
+header {
+	width: 100%;
+	border-bottom: 1px solid #c00;
+	padding: 20px 0;
+	margin: 0 0 40px 0;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.markdown  {
+	color: #CCC;
+}
+
+.markdown h1 {
+	/*border-bottom: 1px solid #555;*/
+} 
+
+footer {
+	margin: 40px 0px;
+	border-top: 1px solid #c00;
+	text-align: center;
+}
+

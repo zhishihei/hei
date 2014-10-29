@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="商业评论">
+<meta name="description" content="没情怀不客观非理性只是黑的商业评论">
+<link rel="shortcut icon" href="{{SITE_URL}}/img/hei.png" type="image/png">
+<link rel="stylesheet" href="{{SITE_URL}}/css/hei.css">
+<title>只是黑 - 没情怀不客观非理性商业评论</title>
+
+{% block head %} {% endblock %}
+
+</head>
+
+<body>
+    <div class="container">
+	
+	{% include '_header.html' %}
+
+	{% block content %} {% endblock %}
+
+	{% include '_footer.html' %}
+
+	</div>
+</body>
+
+</html>

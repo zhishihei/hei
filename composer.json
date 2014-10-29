@@ -1,6 +1,9 @@
 {
     "require": {
-        "php": ">=5.3.0",
-        "erusev/parsedown": "*"
+		"php": ">=5.3.0",
+		"erusev/parsedown": "*",
+        "slim/slim": "2.*",
+		"slim/views": "0.*",
+		"twig/twig": "1.*"
     }
 }
