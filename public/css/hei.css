@@ -41,7 +41,8 @@ header {
 	color: #CCC;
 }
 
-.markdown h1 {
+.markdown h1, .markdown h2 {
+	color: #fff; 
 	/*border-bottom: 1px solid #555;*/
 } 
 
